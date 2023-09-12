@@ -5,18 +5,28 @@
   top: 0;
   left: 0;
   right: 0;
-  height: rem;
+  height: 10vh;
   background-color: black;
 }
 
-.header__logo {
+.header-logo {
+  background-color: lightblue;
   flex: 1;
   justify-content: center;
   align-items: center;
 }
 
-.header__menu {
+.header-menu {
+  background-color: lightpink;
   height: 100%;
-  width: 40vw;
+  width: 60vw;
   display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header-menu-category {
+  background-color: gray;
+  height: 80%;
+  width: 20%;
 }
