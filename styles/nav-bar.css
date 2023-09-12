@@ -9,3 +9,14 @@
   background-color: black;
 }
 
+.header__logo {
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__menu {
+  height: 100%;
+  width: 40vw;
+  display: flex;
+}
