@@ -16,11 +16,17 @@
 }
 
 .header-logo-section {
+  background-color: rgba(20, 41, 89, 0.4);
   display: flex;
   height: 100%;
   width: 20vw;
   align-items: center;
   justify-content: space-around;
+  transition: background-color 0.15s;
+}
+
+.header-logo-section:hover {
+  background-color: rgba(20, 41, 89, 1);
 }
 
 .header-logo-section__name {
