@@ -17,6 +17,10 @@ html {
   color: white;
 }
 
+body {
+  background-color: black;
+}
+
 a,
 a:link,
 a:visited,
