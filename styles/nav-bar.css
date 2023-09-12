@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 10vh;
+  height: 12vh;
   background-color: black;
 }
 
@@ -19,7 +19,7 @@
 .header-menu {
   background-color: lightpink;
   height: 100%;
-  width: 60vw;
+  width: 40vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -27,6 +27,5 @@
 
 .header-menu-category {
   background-color: gray;
-  height: 80%;
-  width: 20%;
+  height: 60%;
 }
