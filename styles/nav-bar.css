@@ -23,7 +23,7 @@
 
 .header-menu {
   height: 100%;
-  width: 40vw;
+  width: 60vw;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -35,11 +35,8 @@
 }
 
 .header-menu-category {
-  display: flex;
-  height: 100%;
-  width: 25%;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.4rem;
+  padding: 1rem;
 }
 
 .header-menu--background-color:hover {
