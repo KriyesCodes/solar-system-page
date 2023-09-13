@@ -23,14 +23,4 @@ body {
   background-color: black;
 }
 
-a,
-a:link,
-a:visited,
-a:hover,
-a:active {
-  color: inherit;
-  text-decoration: inherit;
-  font: inherit;
-}
-
 
