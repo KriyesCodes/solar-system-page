@@ -16,6 +16,7 @@
 
 .header-logo-text {
   height: 100%;
+  padding: 1.6rem 2rem;
   transition: background-color 0.15s;
   font-size: 2rem;
 }
