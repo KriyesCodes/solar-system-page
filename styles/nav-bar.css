@@ -10,21 +10,13 @@
 }
 
 .header-logo {
-  flex: 1;
-  justify-content: center;
-  align-items: center;
-}
-
-.header-logo-section {
   display: flex;
-  height: 100%;
-  width: 20vw;
-  align-items: center;
-  justify-content: space-around;
-  transition: background-color 0.15s;
+  flex: 1;
 }
 
-.header-logo-section__name {
+.header-logo-text {
+  height: 100%;
+  transition: background-color 0.15s;
   font-size: 2rem;
 }
 
