@@ -1,12 +1,9 @@
 /* header is a flexbox and has fixed position at the top of the page */
 .header {
-  position: fixed;
   display: flex;
-  top: 0;
-  left: 0;
-  right: 0;
   height: 6rem;
   background-color: var(--dark-navy-translucent);
+  margin-bottom: 4rem;
 }
 
 .header-logo {
