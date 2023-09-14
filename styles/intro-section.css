@@ -1,4 +1,6 @@
 .intro-section {
   background-color: rgba(128, 128, 128, 0.4);
-  padding: 2em 4em;
+  padding: 2rem 4rem;
+  margin-bottom: 4rem;
+  height: 10rem;
 }
