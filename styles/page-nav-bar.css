@@ -1,7 +1,7 @@
 .page-nav-sidebar--display {
   display: grid;
-  grid-template-rows: repeat(5, 1fr);
-  width: 6rem;
+  grid-template-rows: repeat(4, 1fr);
+  width: 10rem;
 }
 
 .page-nav-sidebar--positioning {
@@ -11,9 +11,13 @@
 }
 
 .page-nav-sidebar--visual {
-  background-color: lightblue;
+  background-color: rgba(131, 192, 227, 0.322);
 }
 
 .page-nav-sidebar__icon {
   width: 30%;
+}
+
+.page-nav-sidebar__text {
+  display: inline;
 }
