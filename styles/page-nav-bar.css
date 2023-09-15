@@ -13,3 +13,7 @@
 .page-nav-sidebar--visual {
   background-color: lightblue;
 }
+
+.page-nav-sidebar__icon {
+  width: 30%;
+}
