@@ -11,11 +11,11 @@
 }
 
 .page-nav-sidebar--visual {
-  background-color: rgba(131, 192, 227, 0.322);
+  background-color: rgb(0, 0, 0);
 }
 
 .page-nav-sidebar__icon {
-  width: 30%;
+  width: 25%;
 }
 
 .page-nav-sidebar__text {
