@@ -12,7 +12,7 @@
 }
 
 .page-nav-bar--visual {
-  background-color: rgb(51, 118, 143);
+  background-color: var(--very-dark-gray);
 }
 
 .page-nav-bar__anchor {
@@ -28,7 +28,7 @@
 }
 
 .page-nav-bar__anchor--visual:hover {
-  background-color: var(--dark-navy-opaque);
+  background-color: rgba(0, 0, 0, 1);
 }
 
 .page-nav-bar__icon {

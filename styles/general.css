@@ -9,8 +9,11 @@
 
 :root {
   --main-font-family: Arial, Helvetica, sans-serif;
+  --black: rgba(0, 0, 0, 1);
   --dark-navy-translucent: rgba(20, 41, 89, 0.4);
-  --dark-navy-opaque: rgba(20, 41, 89, 1);
+  --dark-navy-opaque: rgb(20, 41, 89);
+  --very-dark-gray: rgb(17, 17, 17);
+  --blueish-gray: rgb(33, 36, 50);
 }
 
 html {
@@ -20,11 +23,11 @@ html {
 }
 
 body {
-  background-color: rgb(101, 180, 206);
+  background-color: var(--black);
 }
 
 .section-container {
-  background-color: rgba(128, 128, 128, 0.4);
+  background-color: var(--dark-navy-translucent);
   padding: 2rem 6rem;
   margin-bottom: 4rem;
 }
