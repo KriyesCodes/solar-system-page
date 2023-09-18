@@ -32,14 +32,12 @@
 .header-menu-section {
   height: 100%;
   width: 50rem;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-columns: repeat(4, 10rem);
 }
 
 .header-menu-category {
   height: 100%;
-  width: 25%;
   font-size: 1.5rem;
   text-align: center;
   padding-top: 2rem;
