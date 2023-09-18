@@ -7,6 +7,13 @@
 
 .page-nav-bar--positioning {
   position: fixed;
+  right: -8rem;
+  top: 10rem;
+  transition: right 0.2s;
+}
+
+.page-nav-bar--positioning:hover {
+  position: fixed;
   right: 0rem;
   top: 10rem;
 }
