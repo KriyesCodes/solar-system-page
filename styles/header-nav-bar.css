@@ -48,6 +48,7 @@
 .header-menu--background-color {
   transition: background-color 0.15s;
 }
+
 .header-menu--background-color:hover {
   background-color: var(--dark-navy-opaque);
 }
