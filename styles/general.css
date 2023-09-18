@@ -22,3 +22,9 @@ html {
 body {
   background-color: rgb(101, 180, 206);
 }
+
+.section-container {
+  background-color: rgba(128, 128, 128, 0.4);
+  padding: 2rem 6rem;
+  margin-bottom: 4rem;
+}
