@@ -5,3 +5,7 @@
 .intro-section__title {
   font-size: 2em;
 }
+
+.intro-section__gradient-container {
+  background: linear-gradient(var(--dark-navy-translucent, --black));
+}
