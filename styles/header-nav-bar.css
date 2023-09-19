@@ -1,27 +1,39 @@
 /* header is a flexbox and has fixed position at the top of the page */
 .header {
   display: flex;
+  grid-template-columns: repeat(2, 50rem);
   height: 6rem;
   background-color: var(--dark-navy-translucent);
   margin-bottom: 4rem;
 }
 
 .header-logo-section {
+  width: 30rem;
+  display: grid;
+}
+
+.header-logo__anchor {
+  display: grid;
+  grid-template-columns: 6rem 22rem;
+  column-gap: 2rem;
+  width: inherit;
+  min-width: 30rem;
+}
+
+.header-logo-image-container {
+  width: 6rem;
+}
+
+.header-logo__image {
+  height: 6rem;
+}
+
+.header-logo__text-container {
+  font-size: 4rem;
+}
+
+.header-middle-section {
   flex: 1;
-}
-
-.header-logo-img-container {
-  display: inline-block;
-}
-
-.header-logo-img-container,
-.header-logo-img-container img {
-  height: 100%;
-}
-
-.header-logo-text {
-  display: inline-block;
-  font-size: 2rem;
 }
 
 .header-menu__anchor--visual {
@@ -30,7 +42,6 @@
 }
 
 .header-menu-section {
-  height: 100%;
   width: 50rem;
   display: grid;
   grid-template-columns: repeat(4, 10rem);
