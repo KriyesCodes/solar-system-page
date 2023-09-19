@@ -8,19 +8,18 @@
 }
 
 .header-logo-section {
-  width: 30rem;
-  display: grid;
+  width: 26rem;
 }
 
 .header-logo__anchor {
   display: grid;
-  grid-template-columns: 6rem 22rem;
+  grid-template-columns: 6rem 18rem;
   column-gap: 2rem;
-  width: inherit;
-  min-width: 30rem;
+  height: 6rem;
+  align-items: center;
 }
 
-.header-logo-image-container {
+.header-logo__image-container {
   width: 6rem;
 }
 
@@ -29,7 +28,7 @@
 }
 
 .header-logo__text-container {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 .header-middle-section {
