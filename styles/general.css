@@ -27,7 +27,17 @@ body {
 }
 
 .section-container {
-  background-color: var(--dark-navy-translucent);
-  padding: 2rem 6rem;
-  margin-bottom: 4rem;
+  height: 100%;
+  width: 50%;
+  margin-bottom: 10rem;
+}
+
+.section-content-container {
+  padding: 2rem 10rem 2rem 6rem;
+  height: 100%;
+  width: 100%;
+}
+
+.section-content-container--background {
+  background: linear-gradient(to right, var(--dark-navy-opaque), rgba(0, 0, 0, 0));
 }
