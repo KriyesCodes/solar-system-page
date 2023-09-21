@@ -1,21 +1,19 @@
 .intro-section-container {
-  display: grid;
-  grid-template-columns: 40rem 10rem;
   height: 10rem;
+  width: 50rem;
   margin-bottom: 10rem;
 }
 
 .intro-section-content-container {
-  background-color: var(--dark-navy-translucent);
-  padding: 2rem 0 2rem 6rem;
+  padding: 2rem 10rem 2rem 6rem;
   height: 100%;
+  width: 100%;
+}
+
+.intro-section-content-container--gradient {
+  background: linear-gradient(to right, var(--dark-navy-opaque), rgba(0, 0, 0, 0));
 }
 
 .intro-section__title {
   font-size: 2em;
-}
-
-.intro-section-container--gradient {
-  height: 100%;
-  background: linear-gradient(to right, var(--dark-navy-translucent), var(--black));
 }

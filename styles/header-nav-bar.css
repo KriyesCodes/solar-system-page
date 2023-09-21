@@ -4,7 +4,7 @@
   grid-template-columns: repeat(2, 50rem);
   height: 6rem;
   background-color: var(--dark-navy-translucent);
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 
 .header-logo-section {
