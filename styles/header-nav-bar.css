@@ -3,7 +3,7 @@
   display: flex;
   grid-template-columns: repeat(2, 50rem);
   height: 6rem;
-  background-color: var(--dark-navy-opaque);
+  background: rgb(22, 33, 60);
   margin-bottom: 10rem;
 }
 
@@ -53,10 +53,10 @@
   padding-top: 2rem;
 }
 
-.header-menu--background-color {
-  transition: background-color 0.15s;
+.header-menu--background {
+  transition: background 0.3s;
 }
 
-.header-menu--background-color:hover {
-  background-color: var(--dark-navy-opaque);
+.header-menu--background:hover {
+  background: var(--dark-navy-opaque);
 }
