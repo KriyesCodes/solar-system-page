@@ -3,7 +3,7 @@
   display: flex;
   grid-template-columns: repeat(2, 50rem);
   height: 6rem;
-  background-color: var(--dark-navy-translucent);
+  background-color: var(--dark-navy-opaque);
   margin-bottom: 10rem;
 }
 
