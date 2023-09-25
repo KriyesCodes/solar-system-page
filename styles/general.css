@@ -59,14 +59,13 @@ header {
 
 .section-container {
   height: 100%;
-  width: 70%;
   margin-bottom: 10rem;
 }
 
 .section-content-container {
   padding: 2rem 10rem 2rem 6rem;
   height: 100%;
-  width: 100%;
+  width: 70%;
 }
 
 .section-content-container--background {
