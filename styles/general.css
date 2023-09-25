@@ -44,6 +44,11 @@ h3 {
   font-size: 1.5rem;
 }
 
+header {
+  position: sticky;
+  top: 0;
+}
+
 .section-container {
   height: 100%;
   width: 70%;
