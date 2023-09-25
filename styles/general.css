@@ -12,6 +12,8 @@
   --black: rgba(0, 0, 0, 1);
   --dark-navy-translucent: rgba(20, 41, 89, 0.4);
   --dark-navy-opaque: rgb(20, 41, 89);
+  --very-dark-navy: rgb(22, 33, 60);
+  --very-dark-navy-translucent: rgba(22, 33, 60, 0.6);
   --very-dark-gray: rgb(17, 17, 17);
   --blueish-gray: rgb(33, 36, 50);
 }

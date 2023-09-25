@@ -3,8 +3,11 @@
   display: flex;
   grid-template-columns: repeat(2, 50rem);
   height: 6rem;
-  background: rgb(22, 33, 60);
   margin-bottom: 10rem;
+}
+
+.header--background {
+  background: var(--very-dark-navy);
 }
 
 .header-logo-section {
