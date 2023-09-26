@@ -1,6 +1,6 @@
 #intro-section-container {
   background-image: linear-gradient(to right, var(--dark-navy-opaque), rgba(0, 0, 0, 0)),
-    url("/images/sun-rising-on-earth-in-space.jpg");
+    url("../images/sun-rising-on-earth-in-space.jpg");
   height: 32rem;
   background-position: center;
   background-repeat: no-repeat;
