@@ -14,13 +14,13 @@
 }
 
 .header-logo-section {
-  width: 26rem;
+  width: 30%;
 }
 
 .header-logo__anchor {
   display: grid;
-  grid-template-columns: 6rem 18rem;
-  column-gap: 2rem;
+  grid-template-columns: 20% 70%;
+  column-gap: 10%;
   height: 6rem;
   align-items: center;
 }
@@ -34,7 +34,8 @@
 }
 
 .header-logo__text-container {
-  font-size: 3rem;
+  padding: 2%;
+  font-size: 2.5rem;
 }
 
 .header-middle-section {
@@ -47,14 +48,14 @@
 }
 
 .header-menu-section {
-  width: 50rem;
+  width: 50%;
   display: grid;
-  grid-template-columns: repeat(4, 10rem);
+  grid-template-columns: repeat(4, 25%);
 }
 
 .header-menu-category {
   height: 100%;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   text-align: center;
   padding-top: 2rem;
 }
@@ -69,3 +70,11 @@
   backdrop-filter: blur(11px);
   -webkit-backdrop-filter: blur(11px);
 }
+
+
+@media (max-width: 1000px) {
+  /* Menu section change to hamburger menu */
+
+}
+
+@media (max-width: 450px) {}
