@@ -31,25 +31,39 @@ body {
 h1,
 h2,
 h3 {
-  padding: 1rem 0;
+  text-shadow: 10px 5px 10px black;
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3.5rem;
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
+  margin: 1rem 0;
 }
 
 h3 {
-  font-size: 1.5rem;
+  font-size: 2rem;
+  margin: 2rem 0;
 }
 
 header {
   position: sticky;
   top: 0;
   z-index: 100;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 2rem;
+
+  background: rgba(22, 33, 60, 0.3);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
 .section__reference-line {
