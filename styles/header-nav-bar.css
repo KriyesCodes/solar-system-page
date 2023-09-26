@@ -7,7 +7,10 @@
 }
 
 .header--background {
-  background: var(--very-dark-navy);
+  background: rgba(22, 33, 60, 0.5);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
 }
 
 .header-logo-section {
@@ -61,5 +64,8 @@
 }
 
 .header-menu--background:hover {
-  background: var(--dark-navy-opaque);
+  background: rgba(22, 33, 60, 1);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(11px);
+  -webkit-backdrop-filter: blur(11px);
 }
