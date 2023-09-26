@@ -1,7 +1,5 @@
 .footer {
   background-color: rgb(33, 36, 50);
-}
 
-.footer a {
-  display: block;
+  padding: 2% 0;
 }
