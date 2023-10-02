@@ -1,4 +1,13 @@
 /* header is a flexbox and has fixed position at the top of the page */
+:root {
+  --bar-width: 60px;
+  --bar-height: 8px;
+  --hamburger-gap: 10px;
+  --foreground: #fff;
+  --background: #fff;
+  --animation-timing: 200ms ease-in-out;
+}
+
 .header {
   display: flex;
   grid-template-columns: repeat(2, 50rem);
@@ -64,9 +73,15 @@
   -webkit-backdrop-filter: blur(11px);
 }
 
+
 @media (min-width: 1000px) {
 
   /* Menu section change to grid menu */
+
+  .header-hamburger-menu {
+    display: none;
+  }
+
   .header-menu-section {
     flex: 5;
     display: grid;
@@ -86,12 +101,46 @@
     text-align: center;
   }
 
+
 }
 
 @media (max-width: 1000px) {
-  /* Menu section change to hamburger menu */
+  .hamburger-menu-label {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    gap: var(--hamburger-gap);
+    height: 100%;
+    padding: 0 20px;
+    cursor: pointer;
+  }
 
+  .hamburger-menu-label::before,
+  .hamburger-menu-label::after,
+  .hamburger-menu-label input {
+    content: "";
+    width: var(--bar-width);
+    height: var(--bar-height);
+    background-color: var(--foreground);
+    border-radius: 999px;
+    transition: opacity var(--animation-timing), width var(--animation-timing);
+  }
 
+  .hamburger-menu-label input {
+    appearance: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    pointer-events: none;
+  }
+
+  .hamburger-menu-label input:checked {
+    opacity: 0;
+    width: 0;
+  }
+
+  /* .hamburger-menu-label:has(input:checked)::before {
+    
+  } */
 }
-
-@media (max-width: 450px) {}
